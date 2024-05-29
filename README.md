@@ -33,7 +33,7 @@ Ensure you have the following installed on your local development environment:
 
 ```bash
 git clone https://github.com/yourusername/star-wars-explorer.git
-```bash
+```
 2. Navigate to the project directory:
 cd star-wars-explorer
 
