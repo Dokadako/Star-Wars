@@ -35,17 +35,21 @@ Ensure you have the following installed on your local development environment:
 git clone https://github.com/yourusername/star-wars-explorer.git
 ```
 2. Navigate to the project directory:
+```bash
 cd star-wars-explorer
-
+```
 3. Install the dependencies:
+```bash
 npm install
-
+```
 4. Start the development server:
+```bash
 npm start
-
+```
 5. Open your web browser and go to:
+```bash
 http://localhost:3000
-
+```
 ## Usage
 
 Use the navigation links to browse through planets, characters, and starships.
@@ -68,9 +72,11 @@ Search Functionality: Enhanced the search functionality to work across multiple 
 
 ## Known Issues
 
-Pagination: The current implementation does not handle pagination. This could lead to incomplete data being displayed if the number of entities exceeds the API's response limit.
-Error Handling: Basic error handling is implemented, but there could be edge cases where the application does not gracefully handle API failures or network issues.
-Contributing
+### Pagination: 
+The current implementation does not handle pagination. This could lead to incomplete data being displayed if the number of entities exceeds the API's response limit.
+### Error Handling:
+Basic error handling is implemented, but there could be edge cases where the application does not gracefully handle API failures or network issues.
+## Contributing
 Contributions are welcome! Please follow these steps to contribute:
 
 Fork the repository.
